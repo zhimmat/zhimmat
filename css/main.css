@@ -1,0 +1,64 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+ box-sizing: border-box;
+ -moz-text-size-adjust: 100%;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "ProximaNovaLight" sans-serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+.logo{
+  display: block;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+h2{
+  color: #fff;
+  text-align: center;
+  display: block;
+  font-size: 3em;
+  line-height: 1em;
+  padding-top: 20px;
+}
+
+body{
+  background: #f4f3f3
+  url(images/background.jpg) repeat-x center top fixed;
+  color: #444948;
+}
+
+header {
+  height: 520px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.social{
+  width: 50px;
+height: 50px;
+display: inline-block;
+-webkit-transform: scale(0.5, 0.5);
+transform: scale(0.5, 0.5);
+background-position: center center;
+background-repeat: no-repeat;
+text-align: center;
+border: 0;
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.twitter {
+background-image: url(images/twitter.png);
+}
