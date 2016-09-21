@@ -10,12 +10,17 @@ html {
  -ms-text-size-adjust: 100%;
  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "ProximaNovaLight" sans-serif;
+  font-family: "ProximaNovaLight" , sans-serif;
   }
 
   *, *::before, *::after {
     box-sizing: inherit;
   }
+
+.zeyad{
+  padding-top: 150px;
+}
+
 .logo{
   display: block;
   border-radius: 50%;
@@ -28,14 +33,23 @@ h2{
   color: #fff;
   text-align: center;
   display: block;
+  font: normal 16px/24px "ProximaNova", sans-serif;
   font-size: 3em;
   line-height: 1em;
-  padding-top: 20px;
+}
+
+span{
+display: block;
+font-size: 14px;
+padding-top: 15px;
+font-weight: normal;
+color: white;
+letter-spacing: 0.2em;
 }
 
 body{
   background: #f4f3f3
-  url(images/background.jpg) repeat-x center top fixed;
+  url(http://www.crafton.eu/outsource/res/img/background_big.jpg) repeat-x center top fixed;
   color: #444948;
 }
 
@@ -45,13 +59,19 @@ header {
   top: 0;
   width: 100%;
 }
+
 .social{
+  text-align: center;
+  padding: 0;
+}
+
+.social a{
   width: 50px;
 height: 50px;
 display: inline-block;
 -webkit-transform: scale(0.5, 0.5);
 transform: scale(0.5, 0.5);
-background-position: center center;
+background-position: center;
 background-repeat: no-repeat;
 text-align: center;
 border: 0;
@@ -60,5 +80,4 @@ transition: all .2s ease-in-out;
 }
 
 .twitter {
-background-image: url(images/twitter.png);
 }
