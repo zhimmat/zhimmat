@@ -4,13 +4,14 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+
 html {
  box-sizing: border-box;
  -moz-text-size-adjust: 100%;
  -ms-text-size-adjust: 100%;
  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "ProximaNovaLight" , sans-serif;
+  font-family: "Raleway", sans-serif;
   }
 
   *, *::before, *::after {
@@ -49,7 +50,7 @@ letter-spacing: 0.2em;
 
 body{
   background: #f4f3f3
-  url(http://www.crafton.eu/outsource/res/img/background_big.jpg) repeat-x center top fixed;
+  url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/165672/O2GIxau.jpg) repeat-x center top fixed;
   color: #444948;
 }
 
@@ -75,8 +76,34 @@ background-position: center;
 background-repeat: no-repeat;
 text-align: center;
 border: 0;
--webkit-transition: all .2s ease-in-out;
-transition: all .2s ease-in-out;
+}
+
+.twitter{
+  transition:background .2s;
+  border-radius: 50%;
+  transition: color .3s;
+}
+
+.github{
+  transition:background .2s;
+  border-radius: 50%;
+}
+
+.email{
+  transition:background .2s;
+}
+
+.twitter:hover{
+  box-shadow: 0 0 0 4px #fff;
+  color: #59d;
+}
+
+.github:hover{
+  box-shadow: 0 0 0 4px #fff;
+}
+
+.email:hover{
+  box-shadow: 0 0 0 4px #fff;
 }
 
 .left{
@@ -87,7 +114,7 @@ transition: all .2s ease-in-out;
 #container {
   margin: 526px auto 0 auto;
   width: 100%;
-  background: #fff;
+  background: #fbf4e0;
   position: relative;
   box-shadow: 0 0 5px rgba(0,0,0,.2);
   z-index: 3;
@@ -95,15 +122,13 @@ transition: all .2s ease-in-out;
 }
 
 #container h2 {
-    border-bottom: 1px solid #f4f3f3;
+    border-bottom: .2px solid #bababa;
     display: block;
     width: 100%;
     font-size: 2em;
     font-weight: bold;
     padding: 0;
-    margin: 0;
     font: normal 14px/22px "ProximaNova", sans-serif;
-    height: 50px;
 }
 
 #container h2 span em.left {
@@ -117,14 +142,49 @@ p{
   margin: 0 auto;
 }
 
-.portfolio{
-  width: 100%;
-  padding: 20px 20px;
-  overflow: hidden;
-  margin: 0 auto;
-  display: block;
+.piece{
+  width: 240px;
+  padding-top: 20px;
 }
 
-.portfolio section.aboutme {
+.piece2{
+  width: 240px;
+  padding-top: 20px;
+  margin-left: 10px
+}
+
+.piece3{
+  width: 240px;
+  padding-top: 20px;
+  margin-left: 10px
+}
+
+.piece4{
+  width: 240px;
+  padding-top: 20px;
+  margin-left: 10px
+}
+
+.piece5{
+  width: 240px;
+  padding-top: 20px;
+  margin-left: 10px
+}
+
+.piece6{
+  width: 240px;
+  padding-top: 20px;
+  margin-left: 10px
+}
+
+.column{
+  text-align: center;
+}
+
+.portfolio{
+  text-align: center;
+}
+
+section.aboutme {
     width: 375px;
     float: left;
