@@ -191,9 +191,19 @@ section.aboutme {
     float: left;
 }
 
+.footer{
+  border-bottom: .2px solid #bababa;
+  display: block;
+  width: 100%;
+}
+
+#container footer{
+
+}
+
 footer p {
   border-top: .2px solid #bababa;
-  width: 780px;
+  width: 100%;;
   display: block;
   margin: 0 auto;
   padding-top: 30px;
