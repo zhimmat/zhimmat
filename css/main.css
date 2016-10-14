@@ -141,6 +141,8 @@ p{
   width: 27%;
   margin: 0 auto;
   padding-bottom: 20px;
+  color: black;
+  text-align: left;
 }
 
 .piece{
