@@ -140,10 +140,11 @@ p{
   font: normal 14px/22px "ProximaNova", sans-serif;
   width: 27%;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .piece{
-  width: 240px;
+  width: 100%;
   padding-top: 20px;
 }
 
@@ -188,3 +189,18 @@ p{
 section.aboutme {
     width: 375px;
     float: left;
+}
+
+footer p {
+  border-top: .2px solid #bababa;
+  width: 780px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 11px;
+  color: #3F372F;
+  padding-bottom: 60px;
+  position: relative;
+  font-family: ProximaNovaSemibold;
+}
