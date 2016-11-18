@@ -18,6 +18,19 @@ html {
     box-sizing: inherit;
   }
 
+  body {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #04050B;
+  }
+
+  canvas {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
 .zeyad{
   padding-top: 150px;
 }
@@ -48,11 +61,6 @@ color: white;
 letter-spacing: 0.2em;
 }
 
-body{
-  background: #f4f3f3
-  url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/165672/O2GIxau.jpg) repeat-x center top fixed;
-  color: #444948;
-}
 
 header {
   height: 520px;
@@ -78,6 +86,12 @@ text-align: center;
 border: 0;
 }
 
+.box{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
 .twitter{
   transition:background .2s;
   border-radius: 50%;
@@ -93,19 +107,6 @@ border: 0;
   transition:background .2s;
 }
 
-.twitter:hover{
-  box-shadow: 0 0 0 4px #fff;
-  color: #59d;
-}
-
-.github:hover{
-  box-shadow: 0 0 0 4px #fff;
-}
-
-.email:hover{
-  box-shadow: 0 0 0 4px #fff;
-}
-
 .left{
   color: black;
   font: normal 14px/22px "ProximaNova", sans-serif;
@@ -114,7 +115,7 @@ border: 0;
 #container {
   margin: 526px auto 0 auto;
   width: 100%;
-  background: #fbf4e0;
+  background: white;
   position: relative;
   box-shadow: 0 0 5px rgba(0,0,0,.2);
   z-index: 3;
@@ -169,12 +170,6 @@ p{
 }
 
 .piece5{
-  width: 240px;
-  padding-top: 20px;
-  margin-left: 10px
-}
-
-.piece6{
   width: 240px;
   padding-top: 20px;
   margin-left: 10px
