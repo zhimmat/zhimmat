@@ -190,18 +190,12 @@ p{
   text-align: center;
 }
 
-section.aboutme {
-    width: 375px;
-    float: left;
-}
-
 .photo-description{
 
 }
 
 }
 .footer{
-  border-bottom: .2px solid #bababa;
   display: block;
   width: 100%;
 }
@@ -211,7 +205,6 @@ section.aboutme {
 }
 
 footer p {
-  border-top: .2px solid #bababa;
   width: 100%;;
   display: block;
   margin: 0 auto;
