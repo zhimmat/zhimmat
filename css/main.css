@@ -148,59 +148,66 @@ p{
 }
 
 .piece1{
-  width: 440px;
+  width: 400px;
   padding-top: 40px;
-  margin-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
 .piece2{
-  width: 440px;
+  width: 400px;
   padding-top: 40px;
-  margin-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
 .piece3{
-  width: 440px;
+  width: 400px;
   padding-top: 40px;
-  margin-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
-
 .piece4{
-  width: 440px;
+  width: 400px;
   padding-top: 40px;
-  margin-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
 .piece5{
-  width: 440px;
+  width: 400px;
   padding-top: 40px;
-  margin-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
 .piece6{
-  width: 440px;
+  width: 400px;
   padding-top: 40px;
-  margin-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
 .piece7{
-  width: 440px;
+  width: 400px;
   padding-top: 40px;
-  margin-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
 .piece8{
-  width: 440px;
+  width: 400px;
   padding-top: 40px;
-  margin-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
@@ -212,9 +219,6 @@ p{
   text-align: center;
 }
 
-.photo-description{
-
-}
 
 }
 .footer{
