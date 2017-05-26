@@ -147,14 +147,16 @@ p{
   text-align: left;
 }
 
-.piece{
-  width: 100%;
-  padding-top: 20px;
+.piece1{
+  width: 440px;
+  padding-top: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .piece2{
   width: 440px;
-  padding-top: 20px;
+  padding-top: 40px;
   margin-left: 10px;
   margin-right: 20px;
 }
@@ -189,6 +191,13 @@ p{
 }
 
 .piece7{
+  width: 440px;
+  padding-top: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.piece8{
   width: 440px;
   padding-top: 40px;
   margin-left: 10px;
