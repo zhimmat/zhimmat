@@ -93,13 +93,13 @@ border: 0;
   display: block;
 }
 
-.twitter{
+.behance{
   transition:background .2s;
   border-radius: 50%;
   transition: color .3s;
 }
 
-.github{
+.vimeo{
   transition:background .2s;
   border-radius: 50%;
 }
