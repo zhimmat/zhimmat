@@ -106,6 +106,7 @@ border: 0;
 
 .email{
   transition:background .2s;
+  border-radius: 50%;
 }
 
 .left{
