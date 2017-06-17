@@ -98,15 +98,24 @@ border: 0;
   border-radius: 50%;
   transition: color .3s;
 }
+.behance:hover{
+opacity:.5;
+}
 
 .vimeo{
   transition:background .2s;
   border-radius: 50%;
 }
+.vimeo:hover{
+opacity:.5;
+}
 
 .email{
   transition:background .2s;
   border-radius: 50%;
+}
+.email:hover{
+opacity:.5;
 }
 
 .left{
@@ -155,6 +164,7 @@ p{
   margin-left: 20px;
   margin-right: 20px;
 }
+
 
 .piece2{
   width: 350px;
@@ -215,6 +225,7 @@ p{
 .column{
   text-align: center;
 }
+
 
 .portfolio{
   text-align: center;
