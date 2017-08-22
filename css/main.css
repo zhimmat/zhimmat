@@ -94,28 +94,27 @@ border: 0;
 }
 
 .behance{
-  transition:background .2s;
   border-radius: 50%;
-  transition: color .3s;
 }
 .behance:hover{
-opacity:.5;
+  opacity:.5;
+  transition: all .5s;
 }
 
 .vimeo{
-  transition:background .2s;
   border-radius: 50%;
 }
 .vimeo:hover{
-opacity:.5;
+  opacity:.5;
+  transition: all .5s;
 }
 
 .email{
-  transition:background .2s;
   border-radius: 50%;
 }
 .email:hover{
-opacity:.5;
+  opacity:.5;
+  transition: all .5s;
 }
 
 .left{
@@ -165,6 +164,9 @@ p{
   margin-right: 20px;
 }
 
+.piece1:hover{
+  opacity: .6;
+}
 
 .piece2{
   width: 350px;
@@ -172,6 +174,10 @@ p{
   padding-bottom: 35px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.piece2:hover{
+  opacity: .6;
 }
 
 .piece3{
@@ -182,12 +188,20 @@ p{
   margin-right: 20px;
 }
 
+.piece3:hover{
+  opacity: .6;
+}
+
 .piece4{
   width: 350px;
   padding-top: 35px;
   padding-bottom: 35px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.piece4:hover{
+  opacity: .6;
 }
 
 .piece5{
@@ -198,12 +212,20 @@ p{
   margin-right: 20px;
 }
 
+.piece5:hover{
+  opacity: .6;
+}
+
 .piece6{
   width: 350px;
   padding-top: 35px;
   padding-bottom: 35px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.piece6:hover{
+  opacity: .6;
 }
 
 .piece7{
@@ -214,12 +236,20 @@ p{
   margin-right: 20px;
 }
 
+.piece7:hover{
+  opacity: .6;
+}
+
 .piece8{
   width: 350px;
   padding-top: 35px;
   padding-bottom: 35px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.piece8:hover{
+  opacity: .6;
 }
 
 .column{
