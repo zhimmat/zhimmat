@@ -166,6 +166,7 @@ p{
 
 .piece1:hover{
   opacity: .6;
+  transition: all .5s;
 }
 
 .piece2{
@@ -178,6 +179,7 @@ p{
 
 .piece2:hover{
   opacity: .6;
+  transition: all .5s;
 }
 
 .piece3{
@@ -190,6 +192,7 @@ p{
 
 .piece3:hover{
   opacity: .6;
+  transition: all .5s;
 }
 
 .piece4{
@@ -202,6 +205,7 @@ p{
 
 .piece4:hover{
   opacity: .6;
+  transition: all .5s;
 }
 
 .piece5{
@@ -214,6 +218,7 @@ p{
 
 .piece5:hover{
   opacity: .6;
+  transition: all .5s;
 }
 
 .piece6{
@@ -226,6 +231,7 @@ p{
 
 .piece6:hover{
   opacity: .6;
+  transition: all .5s;
 }
 
 .piece7{
@@ -238,6 +244,7 @@ p{
 
 .piece7:hover{
   opacity: .6;
+  transition: all .5s;
 }
 
 .piece8{
@@ -250,6 +257,7 @@ p{
 
 .piece8:hover{
   opacity: .6;
+  transition: all .5s;
 }
 
 .column{
