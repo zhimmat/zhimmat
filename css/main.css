@@ -171,7 +171,7 @@ p{
 }
 
 .gallery {
-  padding: 40px 0 300px;
+  padding: 40px 0 ;
   position: relative;
   overflow: hidden;
 }
@@ -226,6 +226,81 @@ p{
 }
 .gallery ul li a:hover:after {
   opacity: 1;
+}
+
+.port {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  background: #ffffff;
+  background-color: #ffff;
+  z-index: 103;
+  visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  border-bottom: 1px solid #d0d0d0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.port img {
+  width: 50%;
+}
+.port .description {
+  float: left;
+  width: 50%;
+  max-height: 100%;
+  padding: 0 40px 40px;
+  overflow: auto;
+}
+.port h1 {
+  color:black;
+  font-size: 35px;
+  line-height: 2.3;
+  padding: 0;
+}
+.port > * {
+  opacity: 0;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.port.item_open {
+  visibility: visible;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.port > * {
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.close {
+  width: 21px;
+  height: 21px;
+  background: url(data:image/svg+xml;utf8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2017.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20id%3D%22svg2%22%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%20xmlns%3Asvg%3D%22http%3A//www.w3.org/2000/svg%22%0A%09%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2021%2021%22%0A%09%20enable-background%3D%22new%200%200%2021%2021%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cg%20id%3D%22layer1%22%20transform%3D%22translate%280%2C-1031.3622%29%22%3E%0A%09%3Cpath%20id%3D%22path2987%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20d%3D%22M0%2C1031.4l21%2C21%22/%3E%0A%09%3Cpath%20id%3D%22path2989%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20d%3D%22M21%2C1031.4l-21%2C21%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A%0A) no-repeat;
+  position: absolute;
+  right: 10px;
+  top: -121px;
+  opacity: 1;
+  z-index: 1004;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.item_open .close {
+  opacity: 1;
+  top: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .column{
@@ -309,46 +384,6 @@ footer p {
     box-shadow: 358px 1778px #FFF , 1593px 1115px #FFF , 1124px 802px #FFF , 239px 761px #FFF , 456px 30px #FFF , 1098px 469px #FFF , 497px 808px #FFF , 1718px 15px #FFF , 902px 1695px #FFF , 1262px 1936px #FFF , 1574px 512px #FFF , 361px 1849px #FFF , 714px 664px #FFF , 424px 1480px #FFF , 289px 1472px #FFF , 964px 1462px #FFF , 674px 1251px #FFF , 1798px 1923px #FFF , 399px 74px #FFF , 1017px 68px #FFF , 600px 183px #FFF , 615px 1914px #FFF , 1540px 1886px #FFF , 1296px 856px #FFF , 1508px 925px #FFF , 1961px 1043px #FFF , 238px 136px #FFF , 533px 965px #FFF , 831px 1719px #FFF , 1961px 1038px #FFF , 1716px 1173px #FFF , 78px 518px #FFF , 515px 1397px #FFF , 83px 573px #FFF , 873px 1175px #FFF , 805px 931px #FFF , 1926px 1083px #FFF , 989px 764px #FFF , 643px 1620px #FFF , 624px 1178px #FFF , 1592px 1658px #FFF , 1207px 739px #FFF , 745px 1682px #FFF , 1437px 942px #FFF , 892px 1617px #FFF , 1254px 918px #FFF , 650px 1627px #FFF , 1819px 843px #FFF , 1677px 845px #FFF , 643px 1303px #FFF , 1817px 374px #FFF , 1739px 1443px #FFF , 1297px 7px #FFF , 1187px 605px #FFF , 978px 1008px #FFF , 696px 755px #FFF , 690px 592px #FFF , 476px 145px #FFF , 1273px 1073px #FFF , 98px 661px #FFF , 1101px 1616px #FFF , 105px 1641px #FFF , 372px 640px #FFF , 1433px 1806px #FFF , 1291px 1710px #FFF , 1124px 1555px #FFF , 617px 724px #FFF , 1672px 1094px #FFF , 1048px 785px #FFF , 812px 105px #FFF , 1097px 1502px #FFF , 1968px 1419px #FFF , 59px 1395px #FFF , 1964px 941px #FFF , 680px 1094px #FFF , 154px 1883px #FFF , 798px 1069px #FFF , 394px 298px #FFF , 1040px 333px #FFF , 1437px 793px #FFF , 245px 1887px #FFF , 1737px 1493px #FFF , 1348px 751px #FFF , 582px 594px #FFF , 596px 1393px #FFF , 963px 647px #FFF , 1817px 867px #FFF , 281px 277px #FFF , 1155px 582px #FFF , 1157px 148px #FFF , 927px 1062px #FFF , 1403px 1197px #FFF , 355px 724px #FFF , 641px 1634px #FFF , 1079px 887px #FFF , 1515px 153px #FFF , 336px 1069px #FFF , 1612px 1048px #FFF , 849px 400px #FFF , 355px 346px #FFF;
   }
 
-.wrapper {
-  text-align: center;
-}
-
-  button{
-    background:#1AAB8A;
-    color:#fff;
-    border:none;
-    position:relative;
-    height:60px;
-    font-size:1.6em;
-    padding:0 2em;
-    cursor:pointer;
-    transition:800ms ease all;
-    outline:none;
-  }
-  button:hover{
-    background:#fff;
-    color:#1AAB8A;
-  }
-  button:before,button:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: #1AAB8A;
-    transition:400ms ease all;
-  }
-  button:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  button:hover:before,button:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
 
   @keyframes movingStars {
     from {
