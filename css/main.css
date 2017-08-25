@@ -48,6 +48,24 @@ header h1 span {
   line-height: 1;
 }
 
+header h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 0.8;
+  padding-top: 60px;
+  font-family: "Montserrat", sans-serif;
+}
+header h2 span {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  line-height: 1;
+  padding-top: 10px;
+}
+
 header p {
   padding-top: 30px;
 }
@@ -254,14 +272,13 @@ footer p {
     display: inline-block;
     padding: 20px 80px;
     margin: 15px 30px;
-    border: none;
-    background: #f2f2f2;
+    border: 2px solid white;
+    background-color: transparent;
     cursor: pointer;
     font-size: inherit;
-    font-weight: light;
     border-radius: 50px;
     letter-spacing: 1px;
-    color: lightseagreen;
+    color: white;
     transition: all 0.3s ease 0s;
 }
 .btn:after {
@@ -273,6 +290,8 @@ footer p {
 .btn:hover,
 .btn:focus {
   color: #f8f8f8;
+  border: 2px solid #1ABC9C;
+  outline: none;
 }
 .btn-1:hover,
 .btn-1:focus {
