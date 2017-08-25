@@ -152,7 +152,7 @@ header p {
 }
 
 .gallery {
-  padding: 40px 0 300px;
+  padding: 40px 0 40px;
   position: relative;
   overflow: hidden;
 }
@@ -223,16 +223,11 @@ header p {
   width: 100%;
 }
 
-}
-.footer{
-  display: block;
-  width: 100%;
-}
 
 .port img {
   width: 50%;
   padding-right: 20px;
-  padding-top: 50px;
+  padding-top: 20px;
   position: absolute;
 }
 .port .description {
@@ -253,16 +248,18 @@ header p {
   text-align: left;
 }
 
+.footer{
+  display: block;
+  width: 100%;
+}
 
 footer p {
-  width: 100%;;
+  width: 100%;
   display: block;
   margin: 0 auto;
-  padding-top: 30px;
   text-align: center;
   font-size: 11px;
   color: #3F372F;
-  padding-bottom: 60px;
   position: relative;
   font-family: ProximaNovaSemibold;
 }
