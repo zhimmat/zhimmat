@@ -197,7 +197,7 @@ header p {
   position: absolute;
   width: 100%;
   top: 0;
-  bottom: 0;
+  bottom: 6px;
   background: rgba(0, 0, 0, 0.3);
   content: "";
   opacity: 0;
@@ -230,6 +230,21 @@ header p {
   padding-top: 20px;
   position: absolute;
 }
+
+.port2 img {
+  width: 60%;
+  padding-top: 300px;
+  display: block;
+  margin: auto;
+}
+
+.port3 img {
+  width: 60%;
+  padding-top: 100px;
+  display: block;
+  margin: auto;
+}
+
 .port .description {
   float: left;
   width: 45%;
