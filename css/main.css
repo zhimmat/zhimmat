@@ -219,10 +219,6 @@ header p {
   text-align: center;
 }
 
-.smart{
-  width: 100%;
-}
-
 
 .port img {
   width: 50%;
@@ -242,6 +238,14 @@ header p {
 .port3 img {
   width: 80%;
   padding-top: 80px;
+  display: block;
+  margin: auto;
+  position: sticky;
+}
+
+.port4 img {
+  width: 60%;
+  padding-top: 400px;
   display: block;
   margin: auto;
   position: sticky;
