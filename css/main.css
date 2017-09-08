@@ -232,17 +232,19 @@ header p {
 }
 
 .port2 img {
-  width: 60%;
-  padding-top: 300px;
+  width: 80%;
+  padding-top: 320px;
   display: block;
   margin: auto;
+  position: sticky;
 }
 
 .port3 img {
-  width: 60%;
-  padding-top: 100px;
+  width: 80%;
+  padding-top: 80px;
   display: block;
   margin: auto;
+  position: sticky;
 }
 
 .port .description {
