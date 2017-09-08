@@ -251,6 +251,14 @@ header p {
   position: sticky;
 }
 
+.port5 img {
+  width: 80%;
+  padding-top: 400px;
+  display: block;
+  margin: auto;
+  position: sticky;
+}
+
 .port .description {
   float: left;
   width: 45%;
