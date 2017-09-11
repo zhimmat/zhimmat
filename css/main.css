@@ -111,6 +111,14 @@ header p {
   transition: all .5s;
 }
 
+.linkedin{
+  border-radius: 50%;
+}
+.linkedin:hover{
+  opacity:.5;
+  transition: all .5s;
+}
+
 .center img {
   display: block;
   margin-left: auto;
